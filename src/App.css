@@ -1,0 +1,66 @@
+.intro-text {
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+  background-color: #1592a9;
+  padding-top: 5px;
+  height: 80px;
+}
+
+.container {
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  margin-bottom: 38px;
+  background-color: #1592a9;
+}
+
+
+.label {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 2px 1px #1592a9;
+}
+
+
+input[type='text']{
+  padding:4px;
+  width:150px;
+  height:30px;
+  border-radius:5px;
+  border:#ccc solid 1px;
+}
+
+.radio-button {
+  margin-left: 12px;
+}
+
+.submit-button{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80px;
+  font-size: 2em;
+}
+
+
+form div{
+  margin-bottom:25px;
+  line-height:2.2em;
+}
+
