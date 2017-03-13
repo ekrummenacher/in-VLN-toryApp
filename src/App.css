@@ -1,61 +1,107 @@
+/** {
+  margin: 0px;
+  padding: 0px;
+}*/
+
 .intro-text {
-  font-size: 20px;
+  font-size: 2em;
 }
 
 .text-center {
   text-align: center;
   background-color: #1592a9;
   padding-top: 5px;
-  height: 80px;
+  height: 140px;
+  width: 100%;
+  font-size: 1.2em;
 }
 
 .container {
-  width: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 40px;
-  margin-bottom: 38px;
-  background-color: #1592a9;
+  /*width: auto;*/
+  /*padding-left: 50px;
+  padding-right: 50px;*/
+  /*padding-bottom: 40px;
+  margin-bottom: 38px;*/
+  /*background-color: #1592a9;*/
+  height: 100%;
+  width: 80%;
+  margin: 0px;
+  padding: 0px;
 }
 
 
-.label {
-  font-size: 20px;
+.invent-label {
+  font-size: 1.4em;
+  color: black;
+}
+
+h2 {
+  font-size: 1.2em;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.2em;
   text-align: center;
   padding-top: 20px;
 }
 
 .App-header {
   background-color: #222;
-  height: 50px;
+  height: 120px;
   padding: 20px;
   color: white;
   text-shadow: 1px 2px 1px #1592a9;
 }
 
+.categories-cont {
+  width: 100%;
+  background-color: #1592a9;
+  font-size: 1.2em;
+}
+
+.categories-cont h3 {
+  font-size: 1.6em;
+  padding-bottom: 20px;
+}
 
 input[type='text']{
   padding:4px;
-  width:150px;
-  height:30px;
+  width:170px;
+  margin-top: 5px;
+  height:40px;
   border-radius:5px;
   border:#ccc solid 1px;
 }
 
-.radio-button {
-  margin-left: 12px;
+input[type='radio'] {
+  padding: 15px;
 }
+
+/*input .radio-buttons {
+  margin-left: 12px;
+  padding: 10px;
+}*/
 
 .submit-button{
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
-  font-size: 2em;
+  width: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 1.4em;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.inventTable {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.table-inv {
+  border: 2px solid #1592a9;
 }
 
 
